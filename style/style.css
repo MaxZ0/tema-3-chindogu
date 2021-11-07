@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
+/*font-family: 'Sofia', cursive;*/
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
+/*font-family: 'Hind', sans-serif;*/
+
+body {
+  background-color: #e5e5e5;
+}
+
+.sofia {
+  font-family: "Sofia", cursive;
+}
+
+.hind {
+  font-family: "Hind", sans-serif;
+}
+
+.main-container {
+  margin: 0 auto;
+  width: 1188px;
+}
+
+.logo-img {
+  width: 150px;
+  position: relative;
+  top: 32px;
+  margin: 0 16px;
+}
+
+.nav-bar {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-text {
+  color: rgb(20, 20, 20);
+  margin: 0 16px;
+}
+
+.hero-banner {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-banner-img {
+  margin: 128px auto 16px auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero-p {
+  line-height: 26px;
+  text-align: center;
+  margin: 0px;
+  color: rgba(0, 0, 0, 0.582);
+}
+
+.text-container {
+  width: 573px;
+  height: 154px;
+  margin: 0 auto;
+}
+
+.security-card {
+  margin-top: 128px;
+  text-align: center;
+}
+
+.sec-main-text {
+  margin-bottom: 8px;
+}
+
+.shild-img {
+  margin-top: 32px;
+}
+
+.security-text {
+  width: 573px;
+  height: 154px;
+  font-family: Hind;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.582);
+  margin: 16px auto;
+}
+
+.card-stuff {
+  display: flex;
+  text-align: center;
+  margin: 128px auto 0px auto;
+  width: 480px;
+  justify-content: space-between;
+}
+
+.card-stuff-img {
+  width: 128px;
+  margin: 16px;
+}
+
+.card-stuff-text {
+  font-family: Hind;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.582);
+}
+
+.app-img {
+  width: 330px;
+}
+
+.spinpack-app-main-container {
+  display: flex;
+  text-align: center;
+  width: 580px;
+  margin: 128px auto 0px auto;
+}
+
+p.hind {
+  color: rgba(0, 0, 0, 0.582);
+}
+
+.text-left-spin-app {
+  width: 360px;
+  margin-right: 16px;
+}
+
+.get-app-btn {
+  border: 2px solid #b9111e;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 348px;
+  height: 96px;
+  font-family: Hind;
+  font-size: 27px;
+  line-height: 43px;
+  padding: 25px;
+  color: #b9111e;
+}
+
+.get-app-btn:hover {
+  color: #e5e5e5;
+  background-color: #092143;
+  transition: color 0.3s ease;
+  transition: 0.5s ease;
+  border: none;
+  padding-top: 26px;
+}
+
+.last-container {
+  text-align: center;
+  margin-top: 128px;
+}
+
+.last-img {
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.last-p-text-title {
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.last-p-text {
+  margin: 0 0 16px 0;
+}
+
+.buy-btn {
+  font-size: 27px;
+  border: 2px solid #b9111e;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 232px;
+  height: 53px;
+  padding-top: 8px;
+  margin: 0 auto;
+  font-family: Hind;
+  color: #b9111e;
+  margin-bottom: 128px;
+}
+
+.buy-btn:hover {
+  color: #e5e5e5;
+  background-color: #092143;
+  transition: color 0.3s ease;
+  transition: 0.5s ease;
+  border: none;
+  padding-top: 10px;
+}
+
+.footer {
+  display: flex;
+  background: #111111;
+  padding: 16px;
+}
+
+.a-footer {
+  color: #e5e5e5;
+  font-family: Hind;
+  margin: auto 16px;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-left: 550px;
+}
+
+.responsive-footer {
+  margin: auto 0;
+}
